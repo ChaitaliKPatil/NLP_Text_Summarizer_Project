@@ -1,18 +1,22 @@
 import setuptools
 
+# reading README file helps you during publishing your package on PyPI
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
+# specifying initial version 
 __version__ = "0.0.0"
 
-REPO_NAME = "Text-Summarizer-Project"
-AUTHOR_USER_NAME = "entbappy"
-SRC_REPO = "textSummarizer"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+REPO_NAME = "NLP_Text_Summarizer_Project"
+AUTHOR_USER_NAME = "ChaitaliKPatil"
+SRC_REPO = "textSummarizer"   # it will be a new package.
+AUTHOR_EMAIL = "patilchaitali71@gmail.com"
 
 
 
+# code for local package setup
+# it will  look for constructor file __init__ in every folder and will install it as a local package.
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,
@@ -28,3 +32,5 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
 )
+
+# now you can install the requirements. Make sure you have -e . in your requirements.txt.
