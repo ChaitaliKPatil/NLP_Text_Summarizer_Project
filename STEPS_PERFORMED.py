@@ -268,7 +268,7 @@
 # 
 # AWS Deployment
 # login to console
-# textSummary, text-summary (ECR name), textSummary-machine, textkeypair,
+# textSummary(username), text-summary (ECR name), textSummary-machine, textkeypair,
 # IAM user to be created (Identity Access Management)
 # key-pair (textkeypair.pem) .pem file can be used when you will run this service from your local computer using SuperPutty.
 # 
