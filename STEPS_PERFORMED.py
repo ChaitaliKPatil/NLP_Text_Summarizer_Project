@@ -272,10 +272,11 @@
 # IAM user to be created (Identity Access Management)
 # key-pair (textkeypair.pem) .pem file can be used when you will run this service from your local computer using SuperPutty.
 # 
-# gh
+# 
 # 
 # 
 # BASH Git commit.
 # git add .
 # git commit -m "ci/cd added"
-# 
+# it was getting deployed on AWS through github already.
+# http://16.16.104.222:8080/docs
