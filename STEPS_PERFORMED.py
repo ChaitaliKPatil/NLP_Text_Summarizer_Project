@@ -83,9 +83,10 @@
 # python main.py
 
 
-
 # TODO
 # Set vscode environment to textSummarizer. (logging)
+
+
 
 
 
@@ -95,6 +96,10 @@
 # a python function used frequently in your code. Say readYAML() for reading YAML file. If this utility function is used in some file again and again, put this function in utils --> common.py. It can be imported as a module.
 # ConfigBox file as output because of easy use of dictionary dict.key instead of dict['key]
 # ensure_annotations decorator used because input datatype will be strictly needed as int for a function if specified. (check research --> trials.ipynb)
+
+
+
+
 
 
 
@@ -110,6 +115,10 @@
 
 
 
+
+
+
+# 1. data ingestion to download na dunzip data.
 # then implement data ingestion components
 # ingest a data
 # downloaded dataset from a link on github.
@@ -139,6 +148,59 @@
 # write "artifacts/*" in .gitignore so that this folder wont be committed ever to github.
 # 
 # BASH
+# Git Commit and push to github
+# git commit -m "data ingestion notebook added"
+
+
+
+
+
+
+
+
+# 2. data validation if we have correct datasets available to us.
+# 02_data_validation.ipynb (research)
+# MAIN.PY run successfully
+# BASH
+# Git Commit and push to github
+# git commit -m "data validation notebook added"
+
+
+
+
+
+
+
+# 3. data transformation to convert data into features.
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
