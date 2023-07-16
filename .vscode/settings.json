@@ -6,6 +6,7 @@
         "fastapi",
         "ipynb",
         "Patil",
+        "roughe",
         "sacrebleu",
         "samsum",
         "starlette",
