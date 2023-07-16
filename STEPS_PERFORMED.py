@@ -171,24 +171,26 @@
 
 
 
-# 3. data transformation to convert data into features.
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
+# 3. data transformation to convert data into features. which we did in Text_Summarization.ipynb
+# 03_data_transformation.ipynb (research)
+# MAIN.PY run successfully
+# BASH
+# Git Commit and push to github
+# git commit -m "data transformation notebook added"
+
+
+
+
+
+# TRAINING MODEL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------
+
+# 4. model_trainer for training model.
+# 04_model_trainer.ipynb (research)
+# WORKFLOW 
+# step 2. update params.yaml .These parameters are needed when we train model. in Text_Summarization.ipynb we hardcoded parameters using TrainingArguments module. We can change them in params.yaml.
+# write params.yaml
+# MAIN.PY run successfully
+# BASH
 
 
 
@@ -196,9 +198,23 @@
 
 
 
+# 5. model evaluation for checking with the help og metric we wrote in TextSummarization.ipynb
+# 05_model_evaluation.ipynb (research). Run it.
+# Git Commit and push to github
+# git commit -m "model evaluation completed successfully"
+# git push myOrigin master
 
 
 
+
+
+
+
+# prediction pipeline to be written which we wrote in TextSummarization.ipynb
+# prediction.py (research)
+# last cell of prediction in TextSummarization.ipynb.
+# we need to link this to web application.
+# so write app.py to create web application
 
 
 
@@ -206,6 +222,21 @@
 
 
 # step 8. update the app.py
+# so write app.py to create web application
+# give 2 routs in app.py 1. for training, 2. for prediction output to show on UI.
+# start port nd host.
+# 
+# TODO: run app.py on bash
+# BASH
+# python app.py
+# while this command runs, open google browser and type "localhost:8080"
+# it will start "localhost:8080/docs"
+# you can click button to "Try it out"/execute training which will take lot of time.
+# once successful!, you can predict "Try it out". Enter some text/dialogue for prediction.
+# hurray!!!!!!!! Time for Deployment.
+
+
+
 # 
 # 
 # 

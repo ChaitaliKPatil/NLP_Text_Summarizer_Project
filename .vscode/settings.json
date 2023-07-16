@@ -1,9 +1,15 @@
 {
     "cSpell.words": [
         "Chaitali",
+        "ckpt",
+        "dailymail",
+        "fastapi",
         "ipynb",
         "Patil",
         "sacrebleu",
-        "samsum"
+        "samsum",
+        "starlette",
+        "templating",
+        "uvicorn"
     ]
 }
