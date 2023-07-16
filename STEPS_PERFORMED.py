@@ -1,5 +1,5 @@
 # TODO: all BASH and GIT commands.
-
+# TODO: GIT COMMANDS written here
 # git clone '---.git'
  
  
@@ -11,9 +11,15 @@
 # BASH
 # git add .
 # git commit -m "folder structure added"
-# git push origin main/master (myOrigin here as remote is added at that origin)
-
-
+# git push origin main/master (myOrigin here as remote is added at that origin) (git push remote-name branch-name)
+# git remote -v (get info of remotes using this line)
+# you can come to some branch by following line
+# git fetch remote-name
+# git checkout remote-name
+# git branch --all
+# git checkout branch-name
+# if you had some changes on repository remotely then pull them first and merge using following line.
+# git pull myOrigin master (git pull remote-name branch-name)
 
 
 # TODO
@@ -129,8 +135,14 @@
 # 
 # MAIN.PY 2:01:55/3:38:03
 # It ran successfully. 
-# TODO: GIT COMMIT without artifacts. so mention .gitignore
+# TODO: GIT COMMIT without artifacts. so mention .gitignore file.
+# write "artifacts/*" in .gitignore so that this folder wont be committed ever to github.
 # 
+# BASH
+
+
+
+
 # step 8. update the app.py
 # 
 # 
