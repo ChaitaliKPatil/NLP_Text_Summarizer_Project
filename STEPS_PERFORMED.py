@@ -236,6 +236,16 @@
 # hurray!!!!!!!! Time for Deployment.
 
 
+
+
+
+
+
+
+
+
+
+
 # DEPLOY MODEL --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # we need to integrate with Docker. 
 # Service used: Elastic Container Study. Its from AWS
@@ -244,4 +254,28 @@
 # From Elastic Container Study, we will pull images and run those images into our EC2 instance.
 # This is CI/CD deployment which will directly get deployed from the github repository.
 # CI/CD tool used: GitHub action.
+# 
+# 
+# Write Docker file.
+# Thus simple Docker image is created.
+# 
+# 
+# For CI/CD deployment, create one file under folder ".github\workflows"
+# "main.yaml"
+# 
+# 
+# 
+# 
+# AWS Deployment
+# login to console
+# textSummary, text-summary (ECR name), textSummary-machine, textkeypair,
+# IAM user to be created (Identity Access Management)
+# key-pair (textkeypair.pem) .pem file can be used when you will run this service from your local computer using SuperPutty.
+# 
+# gh
+# 
+# 
+# BASH Git commit.
+# git add .
+# git commit -m "ci/cd added"
 # 
