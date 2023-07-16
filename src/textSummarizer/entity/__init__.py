@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 from pathlib import Path
 
+
+# copied from ingestion.ipynb to convert code to modular code.
 @dataclass(frozen=True)
 class DataIngestionConfig:
     root_dir: Path

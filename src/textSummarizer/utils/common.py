@@ -3,7 +3,7 @@ from box.exceptions import BoxValueError
 import yaml
 from textSummarizer.logging import logger
 from ensure import ensure_annotations
-from box import ConfigBox
+from box import ConfigBox   # ConfigBox 
 from pathlib import Path
 from typing import Any
 
@@ -11,7 +11,7 @@ from typing import Any
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
-    """reads yaml file and returns
+    """reads yaml file and returns as ConfigBox file.
 
     Args:
         path_to_yaml (str): path like input
