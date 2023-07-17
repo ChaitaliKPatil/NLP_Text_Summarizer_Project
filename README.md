@@ -18,8 +18,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Text-Summarization
-```
+https://github.com/ChaitaliKPatil/NLP_Text_Summarizer_Project
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
@@ -44,14 +43,9 @@ python app.py
 
 Now,
 ```bash
-open up you local host and port
+open up your local host and port
 ```
 
-
-```bash
-Author: Krish Naik
-Data Scientist
-Email: krishnaik06@gmail.com
 
 ```
 
@@ -124,8 +118,8 @@ Email: krishnaik06@gmail.com
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = eu-north-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.eu-north-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
